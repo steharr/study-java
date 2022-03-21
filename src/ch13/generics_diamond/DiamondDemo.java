@@ -7,7 +7,7 @@ public class DiamondDemo {
 		TwoGen<Integer, String> tgOb = new TwoGen<>(42, "Test");
 		TwoGen<Integer, String> tgOb2 = new TwoGen<>(42, "Test");
 
-		System.out.println(tgOb.isSame(tgOb2));
-
+System.out.println(	tgOb.isSame(tgOb2));
+		
 	}
 }
